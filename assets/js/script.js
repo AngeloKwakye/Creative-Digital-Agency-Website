@@ -40,10 +40,14 @@ const closeNavbar = function (){
 
 addEventOnELement(navbarLinks, "click", closeNavbar);
 
+/* *
+    header show when scroll is down to 100px
+*/
+
 const header = document.querySelector("[data-header]")
 
 const headerActive = function() {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 80) {
         header.classList.add("active")
     }else{
         header.classList.remove("active")
