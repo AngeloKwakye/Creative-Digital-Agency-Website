@@ -214,7 +214,7 @@ body{
   position: absolute;
 }
 
-:is(.h1, .h2) .has-beiore { display: inline-block;}
+:is(.h1, .h2) .has-before { display: inline-block;}
 
 :is(.h1, .h2) .has-before::before {
   bottom: 8px;
